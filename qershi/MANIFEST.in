@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qershi *.css
+recursive-include qershi *.csv
+recursive-include qershi *.html
+recursive-include qershi *.ico
+recursive-include qershi *.js
+recursive-include qershi *.json
+recursive-include qershi *.md
+recursive-include qershi *.png
+recursive-include qershi *.py
+recursive-include qershi *.svg
+recursive-include qershi *.txt
+recursive-exclude qershi *.pyc
